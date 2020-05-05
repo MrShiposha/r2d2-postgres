@@ -10,4 +10,4 @@ keywords = ["postgres", "sql", "pool", "database"]
 
 [dependencies]
 r2d2 = "0.8"
-postgres = "0.17"
+postgres = { version = "0.17.2", features=["with-chrono-0_4"] }
